@@ -6,7 +6,7 @@ import { getRandomColor } from "../lib/utils";
 const APP_ID = "220ad08f";
 const APP_KEY = "c50c944836c2b90a27cc30f4e33a1674";
 
-const HomePage = () => {
+const Homepage = () => {
 	const [recipes, setRecipes] = useState([]);
 	const [loading, setLoading] = useState(true);
 
@@ -75,4 +75,4 @@ const HomePage = () => {
 		</div>
 	);
 };
-export default HomePage;
+export default Homepage;
